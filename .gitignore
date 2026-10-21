@@ -1,1 +1,56 @@
+# ==========================================
+# CONTROL DE ACCESO RAM - .gitignore
+# Estudiante: Federico Mattia
+# ==========================================
+
+# Ejecutables compilados
+*.exe
+*.out
+*.app
+
+# Archivos objeto y compilación
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+
+# Archivos de depuración
+*.pdb
+*.ilk
+*.idb
+*.gch
+
+# Carpetas de compilación
+build/
+bin/
+obj/
+Debug/
+Release/
+
+# Visual Studio
+.vs/
+*.sln
+*.vcxproj
+*.vcxproj.user
+
+# Visual Studio Code
 .vscode/
+!.vscode/extensions.json
+
+# Archivos temporales y registros
+*.tmp
+*.temp
+*.log
+*~
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Copias de seguridad
+*.bak
+*.old
